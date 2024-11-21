@@ -1,0 +1,14 @@
+// {
+//     "presets": [
+//         "@babel/preset-env",
+//         "@babel/preset-typescript",
+//         // Для работы typescript
+//         [
+//             "@babel/preset-react",
+//             {
+//                 "runtime": "automatic"
+//             }
+//         ]
+//         //  Для работы jsx,tsx + в объекте решение ошибки(react not defined)
+//     ]
+// }
